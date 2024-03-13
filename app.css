@@ -82,3 +82,39 @@ body {
     border-radius: .8rem;
     cursor: pointer;
 }
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: .8rem;
+}
+.popup__close-btn {
+    position: absolute;
+    top: -20px;
+    right: -35px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+
+    background-color: coral;
+    border: none;
+    border-radius: 20px;
+}
+.popup .product-card__link {
+    display: flex;
+    justify-content: center;
+}

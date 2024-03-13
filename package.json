@@ -1,0 +1,14 @@
+{
+  "name": "test-front",
+  "version": "1.0.0",
+  "description": "Это тестовое задание для фронта.",
+  "main": "app.js",
+  "scripts": {
+    "s": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
